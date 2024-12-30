@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Login Page</title>
+</head>
+<body>
+    <h1>Log In</h1>
+    <form id="login-form" action="/login" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <button type="submit">Log In</button>
+    </form>
+
+    <h2>Or Log In With:</h2>
+    <a href="/social_login/google">
+        <button>
+            Google
+        </button>
+    </a>
+    <a href="/social_login/facebook">
+        <button>
+            Facebook
+        </button>
+    </a>
+
+</body>
+</html>
